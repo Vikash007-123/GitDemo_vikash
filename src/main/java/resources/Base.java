@@ -20,6 +20,7 @@ public class Base {
         	System.setProperty("webdriver.chrome.driver",
     				"C:\\Users\\vikash\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
     		 driver = new ChromeDriver();
+System.out.println("Chrome browser will Open");
         	
         }
 
