@@ -22,8 +22,10 @@ public class Base {
     		 driver = new ChromeDriver();
         	
         }
+
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         return driver;
+
         
 	}
 
